@@ -1,0 +1,17 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+}
+div {
+    margin: auto;
+}
