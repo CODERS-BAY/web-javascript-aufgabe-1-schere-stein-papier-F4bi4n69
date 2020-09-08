@@ -8,7 +8,6 @@ var gewinnBedingung = 0;
 ///// Fragt nach wie viele Runden gespielt werden sollen \\\\\
 gewinnBedingung = prompt("Wie viele Runden willst du Spielen?");
 
-zahlenausgabe();
 ///// Fragt den Spieler nach seinem Symbol \\\\\
 function wahlSpieler1() {
     symbolSpieler = "Schere";
@@ -49,25 +48,25 @@ function ermittleErgebnis(spieler, computer) {
     ///// Ermittelt ob der Spieler oder der Computer gewonnen hat \\\\\
     document.getElementById("gewinneComputer").innerHTML = gewinneComputer;
     if (spieler == computer) {
-        alert ("unentschieden!");
+        alert ("Unentschieden!");
     } else if (spieler == "Schere" && computer == "Stein") {
         gewinneComputer++;
-        alert ("Du hat diese Runde verloren!");
+        alert ("Du hast diese Runde verloren!");
     } else if (spieler == "Stein" && computer == "Papier") {
         gewinneComputer++;
-        alert ("Du hat diese Runde Verloren!");
+        alert ("Du hast diese Runde Verloren!");
     } else if (spieler == "Papier" && computer == "Schere") {
         gewinneComputer++;
-        alert ("Du hast diese Runde Verloren!");
+        alert ("Du hasst diese Runde Verloren!");
     } else if (spieler == "Stein" && computer == "Schere") {
         gewinneSpieler++;
-        alert ("Du hast Gewonnen!")
+        alert ("Du hast diese Runde Gewonnen!")
     } else if (spieler == "Papier" && computer == "Stein") {
         gewinneSpieler++;
-        alert ("Du hast Gewonnen!")
+        alert ("Du hast diese Runde Gewonnen!")
     } else if (spieler == "Schere" && computer == "Papier") {
         gewinneSpieler++;
-        alert ("Du hast Gewonnen!")
+        alert ("Du hast diese Runde Gewonnen!")
     }
     ///// Zählt die Durchgänge mit \\\\\
     anzahlRunden++;
@@ -80,7 +79,7 @@ function ende() {
         alert("Du hast das Spiel Gewonnen!");
         reset();
     } else if (gewinneSpieler < gewinneComputer && anzahlRunden == gewinnBedingung) {
-        alert("Du bist schlecht!");
+        alert("Du hast das Spiel Verloren!");
         reset();
     } else if (gewinneSpieler == gewinneComputer && anzahlRunden == gewinnBedingung) {
         alert("Unentschieden!");
