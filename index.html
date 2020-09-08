@@ -13,35 +13,33 @@
             <h1>Schere, Stein, Papier</h1>
         </header>
         <main>
-            <h2>Schere, Stein, Papier</h2>
-
             <section id="buttons">
-                <div id="schere">
-                    <button type="button" onclick="wahlSpieler1()">Schere</button>
+                <div id="symbol">
+                    <button type="button" onclick="wahlSpieler1()">Schere ✂</button>
                 </div>
-                <div id="stein">
-                    <button type="button" onclick="wahlSpieler2()">Stein</button>
+                <div id="symbol">
+                    <button type="button" onclick="wahlSpieler2()">Stein ☁</button>
                 </div>
-                <div id="papier">
-                    <button type="button" onclick="wahlSpieler3()">Papier</button>
+                <div id="symbol">
+                    <button type="button" onclick="wahlSpieler3()">Papier 📄</button>
                 </div>
             </section>
 
-            <section id="Score">
-                <div>
-                    <p>Gewinne Player:</p>
+            <section id="score">
+                <div id="info">
+                    <p id="player">Gewinne User:</p>
                     <p id="gewinneSpieler"></p>
                 </div>
-                <div>
-                    <p>Gespielte Runden:</p>
+                <div id="info">
+                    <p id="runden">Gespielte Runden:</p>
                     <p id="gespielteRunden"></p>
                 </div>
-                <div>
-                    <p>Verbleibend</p>
+                <div id="info">
+                    <p id="ver">Verbleibend</p>
                     <p id="verbleibend"></p>
                 </div>
-                <div>
-                    <p>Gewinne Computer:</p>
+                <div id="info">
+                    <p id="computer">Gewinne Computer:</p>
                     <p id="gewinneComputer"></p>
                 </div>
             </section>
