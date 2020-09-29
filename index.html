@@ -13,36 +13,36 @@
             <h1>Schere, Stein, Papier</h1>
         </header>
         <main>
-            <section id="buttons">
-                <div id="symbol">
+            <article class="buttons">
+                <div class="symbol">
                     <button type="button" onclick="wahlSpieler1()">Schere ✂</button>
                 </div>
-                <div id="symbol">
+                <div class="symbol">
                     <button type="button" onclick="wahlSpieler2()">Stein ☁</button>
                 </div>
-                <div id="symbol">
+                <div class="symbol">
                     <button type="button" onclick="wahlSpieler3()">Papier 📄</button>
                 </div>
-            </section>
+            </article>
 
-            <section id="score">
-                <div id="info">
-                    <p id="player">Gewinne User:</p>
-                    <p id="gewinneSpieler"></p>
-                </div>
-                <div id="info">
-                    <p id="runden">Gespielte Runden:</p>
-                    <p id="gespielteRunden"></p>
-                </div>
-                <div id="info">
-                    <p id="ver">Verbleibend</p>
-                    <p id="verbleibend"></p>
-                </div>
-                <div id="info">
-                    <p id="computer">Gewinne Computer:</p>
-                    <p id="gewinneComputer"></p>
-                </div>
-            </section>
+            <article class="score">
+                <section class="info">
+                    <p>Gewinne User:</p>
+                    <p id="gewinneSpieler" class="gewinneSpieler"></p>
+                </section>
+                <section class="info">
+                    <p>Gespielte Runden:</p>
+                    <p id="gespielteRunden" class="gespielteRunden"></p>
+                </section>
+                <section class="info">
+                    <p>Verbleibend</p>
+                    <p id="verbleibend" class="verbleibend"></p>
+                </section>
+                <section class="info">
+                    <p>Gewinne Computer:</p>
+                    <p id="gewinneComputer" class="gewinneComputer"></p>
+                </section>
+            </article>
         </main>
     </body>
 </html>

@@ -11,26 +11,26 @@ body {
     background-color: grey;
 }
 
-#buttons {
+.buttons {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
-#symbol {
+.symbol {
     width: 35%;
     display: flex;
     justify-content: space-around;
 }
 
-#score {
+.score {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-#info {
+.info {
     width: 30%;
     font-weight: 700;
     font-size: 18px;
@@ -44,17 +44,17 @@ body {
     margin-top: 15px;
 }
 
-#gewinneSpieler {
+.gewinneSpieler {
     color: rgb(0, 255, 0);
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
-#verbleibend {
+.verbleibend {
     color: white;
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
-#gewinneComputer{
+.gewinneComputer{
     color: red;
     text-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
