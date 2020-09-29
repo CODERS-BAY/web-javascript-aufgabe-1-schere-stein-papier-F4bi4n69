@@ -1,0 +1,82 @@
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    padding-bottom: 50px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: grey;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.symbol {
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.score {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info {
+    width: 30%;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    border-top: black;
+    border-top: solid;
+    border-width: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.gewinneSpieler {
+    color: rgb(0, 255, 0);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.verbleibend {
+    color: white;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.gewinneComputer{
+    color: red;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+button {
+    font-size: 20px;
+    color: black;
+    background-color: rgb(173, 173, 173);
+    width: 125px;
+    height: 35px;
+    border-radius: 8px;
+    transition: 0.5s;
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    box-shadow: 0px 0px 1px white;
+}
+button:hover {
+    background-color: rgb(197, 197, 197);
+    width: 150px;
+    height: 40px;
+    box-shadow: 0px 0px 5px white;
+}
+
+h1::first-letter {
+    color: red;
+}

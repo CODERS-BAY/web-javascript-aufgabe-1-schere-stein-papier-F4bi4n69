@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Schere, Stein, Papier">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <script src="javascript/javascript.js"></script>
+        <title>Schere, Stein, Papier</title>
+    </head>
+    <body>
+        <header>
+            <h1>Schere, Stein, Papier</h1>
+        </header>
+        <main>
+            <article class="buttons">
+                <div class="symbol">
+                    <button type="button" onclick="wahlSpieler1()">Schere ✂</button>
+                </div>
+                <div class="symbol">
+                    <button type="button" onclick="wahlSpieler2()">Stein ☁</button>
+                </div>
+                <div class="symbol">
+                    <button type="button" onclick="wahlSpieler3()">Papier 📄</button>
+                </div>
+            </article>
+
+            <article class="score">
+                <section class="info">
+                    <p>Gewinne User:</p>
+                    <p id="gewinneSpieler" class="gewinneSpieler"></p>
+                </section>
+                <section class="info">
+                    <p>Gespielte Runden:</p>
+                    <p id="gespielteRunden" class="gespielteRunden"></p>
+                </section>
+                <section class="info">
+                    <p>Verbleibend</p>
+                    <p id="verbleibend" class="verbleibend"></p>
+                </section>
+                <section class="info">
+                    <p>Gewinne Computer:</p>
+                    <p id="gewinneComputer" class="gewinneComputer"></p>
+                </section>
+            </article>
+        </main>
+    </body>
+</html>
